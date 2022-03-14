@@ -111,7 +111,7 @@ body{
 
 <h2>Links e Ancoras</h2>
 <p>Clique <a href="https://github.com/Danilo4847/
-    exerciciosHTML" rel="external" target="_blank">aqui</a> para acessar o meu github</p>
+    exerciciosHTML" rel="external" target="_blank">aqui</a> para acessar o meu github assim</p>
 <p>A tag 'a' serve para adiconar links</p>
 <p>a tag 'a' pode ser utiliza em conjunto com <br> <pre><code>target="_blank" rel="external"</code></pre> para abrir o link em uma nova janela em vez de sobrepor a atual.  </p>
 <h2>Links internos</h2>
@@ -123,7 +123,22 @@ body{
 <p>move o arquivo para a pasta do código html</p>
 <ul>
 <li><a href="Aula 04.zip" download="Aula04.zip" type="application/zip">Baixar arquivo</a></li>
-
 </ul>
+<h2>Imagens dinâmicas</h2>
+
+<p>A imagem dinâmicas é importante para a esperiencia do usuario no site</p>
+
+<picture>
+<source media="(max-width: 650px)" srcset="imagens/pequeno.png" type="image/png">
+<source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+<img src="imagens/grande.png" alt="A">
+</picture>
+<h2>Midia </h2>
+<audio src="midia/In Memory of Jean Talon - The Mini Vandals.mp3"controls autoplay></audio>
+<audio preload="metadata"autoplay controls loop>
+
+<source src="midia/In Memory of Jean Talon - The Mini Vandals.mp3" type="audio/mpeg">
+</audio>
+
 </body>
 </html>
